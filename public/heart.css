@@ -1,0 +1,17 @@
+.text {
+  position: absolute !important;
+  z-index: 9999999 !important;
+  font-weight: bold !important;
+  user-select: none !important;
+}
+
+@keyframes remove {
+  100% {
+    opacity: 0;
+  }
+}
+
+body{
+  margin:0;
+  padding:0
+}

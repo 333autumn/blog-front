@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>
+    <%= webpackConfig.name %>
+  </title>
+  <!--  APlayer -->
+  <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+  <script src="https://fastly.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+  <!--  MetingJS -->
+  <script src="https://fastly.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+  <!-- 点击效果 -->
+  <link rel="stylesheet" href="./heart.css">
+  <script src="./heart.js"></script>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= webpackConfig.name %> doesn't work properly without JavaScript enabled. Please enable it
+        to continue.</strong>
+  </noscript>
+  <div id="app">
+    <script type="text/javascript" src="./ribbon.js"></script>
+  </div>
+  <!-- built files will be auto injected -->
+  <meting-js server="netease" type="song" id="493454214" fixed="true">
+  </meting-js>
+</body>
+
+</html>

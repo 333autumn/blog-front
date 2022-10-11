@@ -1,0 +1,1 @@
+"# blog-front"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin git@github.com:333autumn/blog-front.gitgit push -u origin main
